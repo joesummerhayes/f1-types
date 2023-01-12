@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --minify --outdir=public/js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "esbuild": "^0.16.12"
+  }
+}
