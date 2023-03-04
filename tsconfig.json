@@ -4,10 +4,13 @@
         "module": "commonjs",
         "jsx": "preserve",
         "strict": true,
+        "outDir": "dist",
         "esModuleInterop": true,
         "lib": ["es2018", "esnext.asynciterable"],
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
+        "declaration": true,
+        "allowJs": false,
     },
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "dist"]
 }

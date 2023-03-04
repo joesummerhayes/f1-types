@@ -1,6 +1,15 @@
 {
+  "name": "@jollie-devs/f1-jollie-types",
+  "version": "1.0.6",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joesummerhayes/f1-types.git"
+  },
+  "files": ["dist"],
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --minify --outdir=public/js"
+    "build": "tsc"  
   },
   "devDependencies": {
     "typescript": "^4.9.4"
